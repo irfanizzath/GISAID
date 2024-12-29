@@ -1,9 +1,10 @@
-GISAID EpiCov Sequence Downloader
-📄 Overview
-This repository contains a Python-based automation script to download the most recent EpiCov sequences for all countries from GISAID. The script uses Selenium for web automation and BeautifulSoup for web scraping, ensuring efficient and streamlined sequence retrieval.
+# GISAID EpiCov Sequence Downloader
 
-✨ Features
-Automated Sequence Downloads: Uses Selenium with Chrome WebDriver to navigate the GISAID platform.
-Location Scraping: Scrapes continents/countries from the GISAID Forum using BeautifulSoup.
-Customizable Automation: Converts locations into a searchable list for efficient automation.
-Download Organization: Saves all downloaded sequences directly to the Downloads folder.
+## Overview
+This Python script automates the download of the latest EpiCov sequences from the GISAID platform. It uses **Selenium** for web automation and **BeautifulSoup** for scraping location data from the GISAID Forum. The tool simplifies downloading sequences for all countries in an organized manner.
+
+
+## Features
+- Automates login and navigation on the GISAID website using **Selenium**.
+- Scrapes continent and country information from the GISAID Forum with **BeautifulSoup**.
+- Automatically downloads and saves sequences in the default `Downloads` folder.
